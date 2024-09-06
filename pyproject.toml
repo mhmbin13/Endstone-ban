@@ -1,0 +1,12 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "endstone-ban"
+version = "0.1.1"
+description = "This plugin adds a /ban /unban for offline and online players and also kicks people for using horion crasher"
+
+[project.entry-points."endstone"]
+ban = "endstone_ban:MyPlugin"
